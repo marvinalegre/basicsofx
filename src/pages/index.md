@@ -7,6 +7,7 @@ title: Basics of x
 
 - [astro](/astro)
 - [at](/at)
+- [systemd](/systemd)
 - [zod](/zod)
 
 <a href="https://github.com/marvinalegre/basics" style="display: inline-block; margin-top: 20px;">
