@@ -17,6 +17,7 @@ title: Basics of x
 
 - [astro](/astro)
 - [at](/at)
+- [linux](/linux)
 - [sqlite full-text search (fts)](/sqlite-full-text-search)
 - [systemd](/systemd)
 - [zod](/zod)
