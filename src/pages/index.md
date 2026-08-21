@@ -13,14 +13,14 @@ title: Basics of x
 
 <div id="results"></div>
 
-- [astro](/astro)
+- [Astro](/astro)
 - [at](/at)
-- [error handling in astro](/error-handling-in-astro)
-- [linux](/linux)
+- [Error Handling in Astro](/error-handling-in-astro)
+- [Linux](/linux)
 - [Selective Error Handling](/selective-error-handling)
-- [sqlite full-text search (fts)](/sqlite-full-text-search)
+- [SQLite Full-Text Search (FTS)](/sqlite-full-text-search)
 - [systemd](/systemd)
-- [zod](/zod)
+- [Zod](/zod)
 
 <hr />
 

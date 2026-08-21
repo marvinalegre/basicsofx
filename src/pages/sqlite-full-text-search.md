@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/MarkdownLayout.astro
-title: SQLite FTS
+title: SQLite Full-Text Search (FTS)
 ---
 
 # Basics of SQLite Full-Text Search (FTS)
