@@ -13,16 +13,12 @@ title: Basics of x
 
 <div id="results"></div>
 
-<div id="article-list">
-
 - [astro](/astro)
 - [at](/at)
 - [linux](/linux)
 - [sqlite full-text search (fts)](/sqlite-full-text-search)
 - [systemd](/systemd)
 - [zod](/zod)
-
-</div>
 
 <hr />
 
@@ -31,7 +27,6 @@ title: Basics of x
 <script>
   const input = document.querySelector("#search");
   const results = document.querySelector("#results");
-  const list = document.querySelector("#article-list")
 
   let timer;
 
@@ -59,13 +54,7 @@ title: Basics of x
           </a>
           <p>${article.snippet}</p>
         </article>
-      `).join("");
-
-      if (articles.length > 0) {
-        list.hidden = true;
-      } else {
-        list.hidden = false;
-      }
+      `).join("") + "<hr />"
     }, 150);
   });
 </script>
