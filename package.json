@@ -3,14 +3,16 @@
     "build": "astro build",
     "db:reset": "rm -rf .wrangler/state/v3/d1 && echo y | wrangler d1 migrations apply box --local",
     "dev": "astro dev",
-    "deploy": "wrangler deploy --minify"
+    "deploy": "wrangler deploy --minify",
+    "generate-types": "wrangler types"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^14.2.3",
     "astro": "^7.2.3"
   },
   "devDependencies": {
     "glob": "^13.0.6",
     "remove-markdown": "^0.6.4",
-    "wrangler": "^4.124.0"
+    "wrangler": "^4.125.0"
   }
 }

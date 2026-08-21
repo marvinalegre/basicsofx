@@ -119,3 +119,32 @@ td {
 th {
   background: var(--bg-dark);
 }
+
+#search {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 16px;
+
+  font: inherit;
+  font-size: 1rem;
+
+  color: inherit;
+  background: transparent;
+
+  border: 1px solid #444;
+  border-radius: 8px;
+
+  outline: none;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+
+#search::placeholder {
+  color: #888;
+}
+
+#search:focus {
+  border-color: #777;
+  box-shadow: 0 0 0 3px rgb(255 255 255 / 8%);
+}
