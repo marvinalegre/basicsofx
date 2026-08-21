@@ -12,7 +12,8 @@
 		{
 			"binding": "DB",
 			"database_name": "box",
-			"database_id": "cc21418c-0b30-4667-a178-8a3cdd182ce6"
+			"database_id": "cc21418c-0b30-4667-a178-8a3cdd182ce6",
+			"migrations_dir": "../../migrations"
 		}
 	]
 }
