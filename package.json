@@ -9,6 +9,7 @@
     "astro": "^7.2.3"
   },
   "devDependencies": {
+    "glob": "^13.0.6",
     "remove-markdown": "^0.6.4",
     "wrangler": "^4.124.0"
   }
