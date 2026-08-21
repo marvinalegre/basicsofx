@@ -6,7 +6,7 @@ export const prerender = false;
 // export const GET: APIRoute = async ({ request, _locals }) => {
 export const GET = async ({ request, _locals }) => {
   const url = new URL(request.url);
-  const q = url.searchParams.get("q")?.trim();
+  const q = escapeFts5(url.searchParams.get("q")?.trim());
 
   if (!q) {
     return Response.json([]);
@@ -35,3 +35,7 @@ export const GET = async ({ request, _locals }) => {
 
   return Response.json(results);
 };
+
+function escapeFts5(input) {
+  return `"${input.replaceAll('"', '""')}"`;
+}
