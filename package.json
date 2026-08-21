@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "astro build",
+    "db:reset": "rm -rf .wrangler/state/v3/d1 && echo y | wrangler d1 migrations apply box --local",
     "dev": "astro dev",
     "deploy": "wrangler deploy --minify"
   },
