@@ -11,11 +11,4 @@ title: Basics of x
 - [systemd](/systemd)
 - [zod](/zod)
 
-<a href="https://github.com/marvinalegre/basicsofx" style="display: inline-block; margin-top: 20px;">
-  <img
-    src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-    width="28"
-    height="28"
-    alt="GitHub"
-  />
-</a>
+[source code](https://github.com/marvinalegre/basicsofx)
