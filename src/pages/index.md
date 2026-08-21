@@ -13,6 +13,8 @@ title: Basics of x
 
 <div id="results"></div>
 
+<hr />
+
 - [Astro](/astro)
 - [at](/at)
 - [Error Handling in Astro](/error-handling-in-astro)
