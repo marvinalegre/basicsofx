@@ -15,7 +15,9 @@ title: Basics of x
 
 - [astro](/astro)
 - [at](/at)
+- [error handling in astro](/error-handling-in-astro)
 - [linux](/linux)
+- [Selective Error Handling](/selective-error-handling)
 - [sqlite full-text search (fts)](/sqlite-full-text-search)
 - [systemd](/systemd)
 - [zod](/zod)
