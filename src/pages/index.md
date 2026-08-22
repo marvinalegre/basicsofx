@@ -20,6 +20,7 @@ title: Basics of x
 - [Error Handling in Astro](/error-handling-in-astro)
 - [Linux](/linux)
 - [Selective Error Handling](/selective-error-handling)
+- [Service Workers](/service-workers)
 - [SQLite Full-Text Search (FTS)](/sqlite-full-text-search)
 - [systemd](/systemd)
 - [Zod](/zod)
