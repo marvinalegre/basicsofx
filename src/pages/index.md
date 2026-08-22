@@ -59,6 +59,6 @@ title: Basics of x
           <p>${article.snippet}</p>
         </article>
       `).join("") + "<hr />"
-    }, 150);
+    }, 300);
   });
 </script>
