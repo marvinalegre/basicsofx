@@ -19,6 +19,7 @@ title: Basics of x
 - [at](/at)
 - [Chart.js](/chartjs)
 - [Error Handling in Astro](/error-handling-in-astro)
+- [git switch](/git-switch)
 - [Linux](/linux)
 - [Selective Error Handling](/selective-error-handling)
 - [Service Workers](/service-workers)
