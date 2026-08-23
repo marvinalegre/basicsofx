@@ -24,6 +24,7 @@ title: Basics of x
 - [Service Workers](/service-workers)
 - [SQLite Full-Text Search (FTS)](/sqlite-full-text-search)
 - [systemd](/systemd)
+- [VitePress](/vitepress)
 - [Zod](/zod)
 
 <hr />
