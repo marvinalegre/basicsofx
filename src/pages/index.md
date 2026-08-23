@@ -17,6 +17,7 @@ title: Basics of x
 
 - [Astro](/astro)
 - [at](/at)
+- [Chart.js](/chartjs)
 - [Error Handling in Astro](/error-handling-in-astro)
 - [Linux](/linux)
 - [Selective Error Handling](/selective-error-handling)
