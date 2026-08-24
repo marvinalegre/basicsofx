@@ -17,6 +17,7 @@ title: Basics of x
 
 - [Astro](/astro)
 - [at](/at)
+- [Building a Web Application Template](/building-a-web-app-template)
 - [Chart.js](/chartjs)
 - [curl](/curl)
 - [Error Handling in Astro](/error-handling-in-astro)
