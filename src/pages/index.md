@@ -19,9 +19,11 @@ title: Basics of x
 - [at](/at)
 - [Building a Web Application Template](/building-a-web-app-template)
 - [Chart.js](/chartjs)
+- [Cloudflare KV](/cloudflare-kv)
 - [curl](/curl)
 - [Error Handling in Astro](/error-handling-in-astro)
 - [git switch](/git-switch)
+- [jq](/jq)
 - [Linux](/linux)
 - [Node.js](/nodejs)
 - [Selective Error Handling](/selective-error-handling)
@@ -31,6 +33,7 @@ title: Basics of x
 - [tsconfig.json](/tsconfig)
 - [VitePress](/vitepress)
 - [Zod](/zod)
+- [xargs](/xargs)
 
 <hr />
 
@@ -59,6 +62,10 @@ title: Basics of x
 
       const articles = await res.json();
 
+
+      if (articles.length == 0) {
+        results.innerHTML = '<p>No result found</p>'
+      } else {
       results.innerHTML = articles.map(article => `
         <article>
           <a href="/${article.slug}">
@@ -66,7 +73,8 @@ title: Basics of x
           </a>
           <p>${article.snippet}</p>
         </article>
-      `).join("") + "<hr />"
+      `).join("")
+      }
     }, 300);
   });
 </script>
