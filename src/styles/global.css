@@ -152,3 +152,7 @@ strong {
   border-color: #777;
   box-shadow: 0 0 0 3px rgb(255 255 255 / 8%);
 }
+
+article {
+  margin: 2.5rem 0;
+}
