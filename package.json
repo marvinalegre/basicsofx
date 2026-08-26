@@ -2,6 +2,7 @@
   "scripts": {
     "build": "astro build && node scripts/generate-seed-script.mjs && wrangler d1 execute box --file=./scripts/seed-d1.sql --remote && rm ./scripts/seed-d1.sql",
     "db:reset": "rm -rf .wrangler/state/v3/d1 && echo y | wrangler d1 migrations apply box --local",
+    "db:build": "node scripts/generate-seed-script.mjs && wrangler d1 execute box --file=./scripts/seed-d1.sql && rm ./scripts/seed-d1.sql",
     "dev": "astro dev",
     "deploy": "wrangler deploy --minify",
     "generate-types": "wrangler types"
