@@ -17,6 +17,7 @@ title: Basics of x
 
 - [Astro](/astro)
 - [at](/at)
+- [Browser APIs](/browser-apis)
 - [Building a Web Application Template](/building-a-web-app-template)
 - [Chart.js](/chartjs)
 - [Cloudflare KV](/cloudflare-kv)
@@ -28,6 +29,7 @@ title: Basics of x
 - [Markdown](/markdown)
 - [Node.js](/nodejs)
 - [pass](/pass)
+- [Postman](/postman)
 - [rg](/rg)
 - [sed](/sed)
 - [Selective Error Handling](/selective-error-handling)
@@ -37,6 +39,7 @@ title: Basics of x
 - [Temporal Javascript](/temporal-js)
 - [tsconfig.json](/tsconfig)
 - [VitePress](/vitepress)
+- [Vitest](/vitest)
 - [Zod](/zod)
 - [xargs](/xargs)
 
